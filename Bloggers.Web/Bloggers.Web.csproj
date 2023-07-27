@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Bloggers.Identity\Bloggers.Identity.csproj" />
+    <ProjectReference Include="..\Bloggers.Models\Bloggers.Models.csproj" />
+    <ProjectReference Include="..\Bloggers.Repository\Bloggers.Repository.csproj" />
+    <ProjectReference Include="..\Bloggers.Services\Bloggers.Services.csproj" />
+  </ItemGroup>
+
+</Project>
